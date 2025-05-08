@@ -1,4 +1,4 @@
-# aec2025
+# react-learning
 ## What & Why?
 - Created This Repository To:
   - Track my react journey
