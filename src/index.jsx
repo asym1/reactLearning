@@ -11,13 +11,11 @@ function Page() {
         </ol>
     );
 }
-
 function Header() {
   return (
     <img src="src/assets/react.svg" width="40" alt="react logo"/>
   );
 }
-
 function Footer() {
   return (
     <footer> <small> 2024 copyright Fortnite Vbucks </small></footer>
