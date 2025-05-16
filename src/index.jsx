@@ -1,22 +1,10 @@
+//Website mental model:
+//Header should be it's own component to allow for use in other pages
+//Main content should be a file with the fun facts & seperate components for h1 and list
 import { createRoot } from "react-dom/client"
+import App from "./App.jsx"
 const root = createRoot(document.getElementById("root"))
 
-//Put components into seperate files that are exported and imported here to be used
-import Header from "./Header" //might need to add .jsx at the end of the path
-import Footer from "./Footer"
-import MainContent from "./MainContent"
-
-function Page() { //parent component
-    return (
-      //children components
-      <>
-        <Header />
-        <MainContent />
-        <Footer />
-      </>
-    );
-}
-
 root.render(
-  <Page />
+  <App />
 )
