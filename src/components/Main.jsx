@@ -1,3 +1,14 @@
 export default function Main() {
-    return (<h1> Main goes here </h1>);
+    return (
+        <main>
+            <h1 className="heading"> Fun facts about React </h1>
+            <ul className="list">
+                <li>First released in 2013</li>
+                <li>Was originally created by Jordan Walke </li>
+                <li>Has well over 100K stars on GitHub</li>
+                <li>Is Maintained By Meta</li>
+                <li>Powers thousands of enterprise apps, including mobile apps</li>
+            </ul>
+        </main>
+    );
 }

@@ -6,6 +6,8 @@
 body {
   margin: 0; /* prevents random border around our elements (e.g. header) and allows bgcolor to affect the whole slice of screen */
   font-family: Inter, sans-serif; /* inter found via link in the html script (google fonts) */
+  background-color: #282D35; /* allows us to change the background of everything so we don't deal with borders in main */
+  color:white; /* all text in main section should be white */
 }
 
 .h {
@@ -16,14 +18,13 @@ body {
 
 .logo { 
   /* css for the logo in the top left */
-  width: 40px;
+  width: 40px; /* img size */
   margin-right: 7px; /* seperate text from logo */
 }
 
 /*used to alight image and text by using a flexbox 
 with the items aligned at the cented of the nav bar*/
 .navbar {
-  list-style: none;
   display: flex;
   align-items:center;
   height:100% /* fill all of the parent container (header h) */
@@ -32,4 +33,28 @@ with the items aligned at the cented of the nav bar*/
 .hText {
   color: #61DAFB;
   font-size: 1.4rem; /* rem found from pixels in design (better practice) */
+  font-weight: 700;
+}
+
+.heading {
+  padding-left: 20px; /*give some space between heading and other elements */
+  font-size:2.4rem;
+}
+
+li {
+  padding-block: 5px; /*allows you to set padding for both top and bottom */
+  font-size:12px; /*size of list text */
+  font-weight: 400;
+}
+
+li::marker { /*edits bullet in the bullet point */
+  color:#61DAFB; /*bullet is blue */
+  font-size:1.5rem;
+}
+
+main {
+  background-image: url(assets/react-logo-half.png); /*image to be added to the background */
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 65%;
 }
