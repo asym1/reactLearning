@@ -1,3 +1,24 @@
 html, body {
   margin: 0;
+  font-family: Inter, sans-serif;
+}
+
+.h {
+  background-color: #F55A5A;
+  display:flex;
+  justify-content: center; /*center the elements */
+  align-items:center; /*height of text centered */
+  height: 55px; /*height of whole header section */
+  color:white;
+}
+
+.logo {
+  width: 24px; /*size of image */
+  margin-right: 7px; /*space between icon and text */
+}
+
+.webtitle {
+  font-weight: 500;
+  font-size: 0.9rem;
+  font-family: Inter;
 }
