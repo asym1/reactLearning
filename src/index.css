@@ -17,8 +17,48 @@ html, body {
   margin-right: 7px; /*space between icon and text */
 }
 
-.webtitle {
+.webtitle { /* text itself */
   font-weight: 500;
   font-size: 0.9rem;
   font-family: Inter;
+}
+
+.entry1 {
+  display:flex;
+  align-items:center;
+}
+
+.main-image {
+  width: 125px;
+  height: 190px;
+  border-radius: 5%;
+  margin: 40px 20px;
+}
+
+.entrymarker {
+  width: 10px;
+  margin-right: 4px;
+}
+
+.country {
+  margin-right: 12px;
+  letter-spacing: 2px;
+  font-weight:300;
+}
+.gmlink {
+  font-weight: 300;
+  color: #918E9B;
+}
+.section2 {
+  font-weight:800;
+  margin: 8px 0; 
+}
+.section3 {
+  font-weight: 800;
+  margin: 12px 0px;
+}
+.section4 {
+  color:#2B283A;
+  font-weight:300;
+
 }
