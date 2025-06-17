@@ -23,42 +23,57 @@ html, body {
   font-family: Inter;
 }
 
-.entry1 {
+.journal-entry {
+  margin-top: 30px;
   display:flex;
-  align-items:center;
+}
+
+.main-image-container {
+  width: 125px;
+  height: 168px;
+  overflow: hidden; 
+  border-radius: 5px;
+  flex-shrink: 0;
+  margin-right: 19px;
+  margin-left: 20px;
 }
 
 .main-image {
-  width: 125px;
-  height: 190px;
-  border-radius: 5%;
-  margin: 40px 20px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .entrymarker {
-  width: 10px;
+  width: 7px;
   margin-right: 4px;
 }
 
 .country {
   margin-right: 12px;
-  letter-spacing: 2px;
+  font-size: 0.7rem;
+  letter-spacing: 1px;
   font-weight:300;
 }
 .gmlink {
   font-weight: 300;
+  font-size: 0.7rem;
   color: #918E9B;
 }
 .section2 {
   font-weight:800;
-  margin: 8px 0; 
+  margin-top: 7px;
+  margin-bottom: 17px;
 }
 .section3 {
-  font-weight: 800;
-  margin: 12px 0px;
+  font-weight: bold;
 }
 .section4 {
   color:#2B283A;
+  font-size: 0.8rem;
   font-weight:300;
-
+  display:-webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow:hidden;
 }
