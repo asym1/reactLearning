@@ -1,4 +1,5 @@
 export default function Entry(props) {
+    props = props.entry
     return (
         <article className="journal-entry"> {/*more semantically accurate  than just a div*/}
             <div className="main-image-container"> {/*added to fit image without ruining aspect ratio or shrinking image*/}
