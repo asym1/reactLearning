@@ -1,80 +1,13 @@
-html, body {
-  margin: 0;
-  font-family: Inter, sans-serif;
+* {
+    box-sizing: border-box;
 }
 
-.h {
-  background-color: #F55A5A;
-  display:flex;
-  justify-content: center; /*center the elements */
-  align-items:center; /*height of text centered */
-  height: 55px; /*height of whole header section */
-  color:white;
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
 }
 
-.logo {
-  width: 24px; /*size of image */
-  margin-right: 7px; /*space between icon and text */
-}
-
-.webtitle { /* text itself */
-  font-weight: 500;
-  font-size: 0.9rem;
-  font-family: Inter;
-}
-
-.journal-entry {
-  margin-top: 30px;
-  display:flex;
-  margin-bottom:36px;
-}
-
-.main-image-container {
-  width: 125px;
-  height: 168px;
-  overflow: hidden; 
-  border-radius: 5px;
-  flex-shrink: 0;
-  margin-right: 19px;
-  margin-left: 20px;
-}
-
-.main-image {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
-
-.entrymarker {
-  width: 7px;
-  margin-right: 4px;
-}
-
-.country {
-  margin-right: 12px;
-  font-size: 0.7rem;
-  letter-spacing: 1px;
-  font-weight:300;
-}
-.gmlink {
-  font-weight: 300;
-  font-size: 0.7rem;
-  color: #918E9B;
-}
-.section2 {
-  font-weight:800;
-  margin-top: 7px;
-  margin-bottom: 17px;
-}
-.section3 {
-  font-weight: bold;
-}
-.section4 {
-  color:#2B283A;
-  font-size: 0.8rem;
-  font-weight:300;
-  display:-webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow:hidden;
-}
+/**
+header box shadow code:
+box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+*/
