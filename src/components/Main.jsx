@@ -1,6 +1,6 @@
 export default function Main() {
     return (
-        <main>
+    <main>
         <form className="add-ingredient-form">
             <input 
             aria-label="Add Ingredient"
