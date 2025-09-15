@@ -21,7 +21,7 @@ export default function Main() {
                     placeholder="e.g. Oregano"
                     name="ingredient"
                 />
-                <button >Add Ingredient</button> 
+                <button> Add Ingredient </button> 
             </form>
             <ul>
                 {mapped_ingredients}
