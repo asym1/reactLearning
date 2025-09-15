@@ -16,7 +16,7 @@ export default function Main() {
             
             <form className="add-ingredient-form" onSubmit={onSubmitEvent}>
                 <input 
-                    aria-label="Add Ingredient"
+                    aria-label="Add Ingredients"
                     type="text"
                     placeholder="e.g. Oregano"
                     name="ingredient"
